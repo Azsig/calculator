@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 110, 199);
+}
+
+.body{
+    width: 100%;
+    max-width: 300px;
+    padding: 20px 30px;
+    background-color: rgb(91, 151, 132);
+    border-radius: 5%;
+    margin: 50px ;
+}
+
+.display{
+    width: 100%;
+    max-width: 240px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: solid 2px black;
+    background-color: rgb(206, 201, 201);
+}
+
+button{
+    width: 60px;
+    height: 60px;
+}
+
+.digitOperator{
+    display: flex;
+    justify-content: center;
+}
+
+.digit{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.operator{
+    display: grid;
+}
+
+.delete{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    /* padding-top: 40px; */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#gh-logo{
+    width: 25px;
+    height: 25px;
+    margin-bottom: -6px;
+    margin-right: 5px;
+}
