@@ -66,7 +66,7 @@ function number1(input){
 }
 
 function number2(input){
-    if((input == '.' && firstNumber == '') || (input == '.' && firstNumber.includes('.'))){
+    if((input == '.' && lastNumber == '') || (input == '.' && lastNumber.includes('.'))){
         return;
     }
     else if(input == '='){
